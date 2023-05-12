@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+header{
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+p{
+    font-family: "Open Sans", sans-serif;
+  }
+.logo img{
+    width:6rem;
+    height: 6rem;
+  
+}
+.logins{
+    margin-top: 3rem;
+  padding-right: 2rem;
+ font-weight: bolder;
+
+}
+.logins a{
+ padding: 0.2rem;
+text-decoration: none;
+ color: #910b0b;
+font-size: 1.8rem;
+
+}
+.logins a:hover{
+    cursor: pointer;
+    color: black;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+nav.sticky {
+    position: sticky;
+    top: 0rem;
+    padding: 3rem;
+    background-image: linear-gradient(45deg, #d7b849 0%, #f254c3 100%);
+    text-align: center;
+    z-index: 1;
+  }
+  nav.sticky a {
+    font-size: 1.5rem;
+    font-family: "DynaPuff", cursive;
+    text-decoration: none;
+    color: black;
+    margin-right: 1.5rem;
+  }
+  nav.sticky a:hover {
+    color: white;
+  }
+  nav.banner{
+    position: relative;
+  }
+  nav.banner img {
+    width: 100%;
+    max-height: calc(120vh - 210px);
+  }
+  nav.banner .detail {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  nav.banner .detail h1 {
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0px 2px 4px black;
+  }
+  nav.banner .detail h3 {
+    
+    color: white;
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+    color: rgb(235, 5, 5);
+    text-shadow: 0px 2px 4px rgb(189, 153, 153);
+  }
+  nav.banner button {
+    margin-top: 0.8rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #d9afd9;
+    font-weight: 800;
+  }
+  nav.banner button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  main {
+    padding: 3rem;
+    margin: 3rem;
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+  
+div.fixed{
+    width:5rem;
+    height: 5rem;
+    background-color: black;
+color: white;
+border-radius: 50%;
+font-size: 2.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+bottom: 2rem;
+right: 3rem;
+}
+.fixed:hover{
+cursor: pointer;
+outline: 5px solid black;
+outline-offset: 3px;
+}
